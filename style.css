@@ -39,7 +39,14 @@ img {
   }
 }
 
+picture, 
 picture img {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+picture {
+  display: flex;
+  justify-content: center;
 }
